@@ -1,0 +1,78 @@
+body {
+    background-image: url(Img/AUXEnCF\ \(1\).jpeg);
+        background-size: cover;
+    background-repeat: no-repeat;
+    color: black;
+}
+.p{
+    font-family: 'Roboto', sans-serif;
+}
+.title{
+    font-family: 'Noto Sans', sans-serif;
+    display:flex;
+    justify-content: center;
+    margin: 10px;
+}
+#contenedor {
+    width: 600px;
+    margin: 0px auto;
+}
+.padre{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+.padre2 {
+    display: flex;
+    justify-content: space-between;
+}
+.aside {
+    display: flex;
+    justify-content: center;
+    }
+.ar{flex:6;
+    margin-right: auto;
+}
+.conteiner-fluid {
+    display: flex;
+    flex-direction: row-reverse;
+    font-family: 'Fira Sans', sans-serif;
+    margin-right:20px;
+    margin-left: 20px;
+    padding-top: 5px;
+    background-color:#C9DBE3;
+}
+a:hover{
+    background-color:thistle;
+    text-decoration: none;
+}
+a:link{
+    text-decoration: none;
+}
+.mas{
+    margin-right:20px;
+    margin-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 8px;
+}
+.inicio{
+    margin-right:20px;
+    padding-top: 5px;
+    padding-bottom: 8px;
+}
+.truco{
+    padding-top: 5px;
+    margin-right: 5px; 
+    padding-bottom: 8px;
+}
+.card{
+    display: inline;
+    margin:15px;
+}
+.conteiner{
+    display:flex;
+}
+.card-body{
+    background-color:#C9DBE3;
+}
